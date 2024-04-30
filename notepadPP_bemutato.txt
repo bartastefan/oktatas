@@ -1,0 +1,100 @@
+Notepad++
+========
+
+mire jó?
+----------
+Windows Notepad, de
+
+miért jó?
+----------
+ingyenes, és open source
+plusz hasznos funkciók (++) ->pluginok kezelése (lejjebb)
+
+beszerzés, telepítés:
+-----------------------------
+https://notepad-plus-plus.org/
+portable is letölthető (zip) -ez is előny lehet olyan környezetben, ahol nincs telepítési jogunk
+
+miket tud (nem az összes, csak a főbb, hasznos feature-ök)?
+---------------------------------------------------
+
+- Programnyelvek szövegkiemelése (kulcsszavak, szintaxisok)
+Ez talán a fő, szembetűnő különbség, olvashatóbbak a különböző formátumok (json, xml, html...), 
+a szerkesztés is könnyebb (hasonlít egy IDE felülethez, de)
+-> programnyelvek/(text alapú) dokumentum formátumok közötti váltás (Language menü) pl html, xml, json, java, python
+-> egyedi paraméterek is beállíthatóak (user defined language)
+-> a kinézet is ezzel együtt (settings/style configurator)
+
+- gépelési könnyítés
+Az adott nyelvhez tartozó, erre jellemző szókészlet szótárból automatikus kitöltéssel írhatunk be könnyebben szavakat (és amit a szövegben is talál)
+(pl "i" betűre XML: id C++: if)
+
+- Multi-szerkesztő (több fül kezelése)
+Több fájlt is megnyithatunk egyszerre, ezek között válthatunk, látjuk a füleken, hogy melyiken állunk
+->dokumentum lista (View/Document List) (több dokumentum kezelését könnyítheti meg)
+->automatikus mentés: régebben pluginként működött, mostani verzióban alapfunkció
+(settings/preferences/backup -ban állítható)
+
+- Pluginok kezelése
+plugin lista a github oldalukról, de a Plugins Admin-ból kezelhető!
+pl Music player :)
+
+- Dokumentum térkép
+kisebb nézetben láthatjuk külön szekcióban az egész dokumentum kinézetét (könnyebb navigálás)
+>View/Document map menüpontból
+
+- Dual View
+jobb klikk a dokumentumfülön (nézetek létrehozása)
+> move to another view (ha van másik dokumentumfül is megnyitva, akkor átmozgatódik egy új oldalra)
+> clone to another view (klónozódik a dokumentum egy új oldalra (mindkettőt szerkesztjük)
+> move to/open in new instance (egy másik(új) notepad++ alkalmazásban nyitja meg a kívánt dokumentumot)
+
+- Vágólap előzmények eltárolása (clipboard history) -> ahol áll a kurzor, a clipboard-on kattintva beilleszti a szövegbe
+>edit/clipboard history
+
+- Behúzások (pl.: kijelölés + TAB) kezelése
+->kijelölt soroknál: tab-beljebb SHIFT+tab - leszedi a tabulátort
+- Minden karakter megjelenítése (a Word-höz hasonlóan pl space-ek, tabulátorok is látszódnak)
+> Pi-gombbal (Show All Characters)
+(settings/preferences/language menüből állítható pl a tabulátor (space) mérete)
+
+- Minden fülön keresés, csere
+Find menüből (Search/Find vagy távcső ikon)
+
+"Find All in Current Document"
+"Find All in All Opened Document"
+/
+"Replace All" (current document-re vonatkozik)
+"Replace All in All Opened Document"
+
+Keresés/csere:
+ - Egy állomány/Több állomány/file-ok (fontos! több állományesetén az egész könyvtárban található file-ok tartalmát cseréli! óvatosan!)
+ - Speciális: Bővített/Reguláris
+regex keresés (k.r -> "körte", "teKTRonix")
+- Kisbetű/Nagybetű (Match case)
+- Pontos szöveg (Match whole word only)
+- Kiemelés (Mark fül)
+-> Kigyűjtés
+
+fontos: file-on belül a kurzor után keres (a legtöbb szövegszerkesztő ezen logika alapján működik)
+
+Sor műveletek
+- több sor szerkesztése (shift+alt+le/fel nyil >kurzor többszöröződik >a sor szerkeszthető (nyil megnyomására megszűnik a multi-kurzor))
+
+Sorok rendezése
+>szövegtörés (word wrap (gomb vagy View menüből) -a dokumentum tartalmát nem befolyásolja, csak a megjelenítést) 
+- sorok berűrendbe rendezés (Edit/Line Operations/pl. Sort Lines...)
+- CTRL+SHIFT+fe-le nyilakkal a sort átmozgathatjuk másik sorba a kijelölt sort (vagy ahol a kurzor van)
+
+kisbetű<>nagybetű (Edit/Convert case)
+mondatok (TODO rendes, elválasztott mondatok) kisbetű<>nagybetű
+
+TODO grafikus szövegkijelölés (blokkok)
+
+- Zoom (CTRL+görgő fel-le),
+
+- Encoding (különböző karakterkódolások kezelése +egyéb speciális nyelvi)
+
+*lásd fent is megemlítve
+miket tud (nem az összes, csak a főbb, hasznos feature-ök)?
+---------------------------------------------------

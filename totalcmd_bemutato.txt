@@ -1,0 +1,112 @@
+TOTAL COMMANDER
+---------------
+*mi ez, mire jó?
+-file kezelő, Windows-ra és már Android-ra is (Mac, Linux más alternatívái vannak, más felületekkel),
+*miért jó?
+-több beépített funkciója, letölthető pluginja van, mint pl a Windows intézőnek (önmagában),
+
+-áttekinthetőbb a HDD tartalma (megszokás kérdése -ha valaki már az intézőhöz szokott, esetleg parancssorhoz)
+-> DOS-os vagy egyéb régebbi op rendszer Commander használóinak (Norton, Midnight etc) jobban kézre esik,
+-> billentyűzet-friendly használat, de egérrel, az intézővel megegyező módon is használható
+
+-kevés helyet foglal és hordozható
+-> a telepítés helyéről másolható (pl pendrive-on elfér)
+
+Beszerzés és telepítés
+----------------------
+https://www.ghisler.com/download.htm
+(tipp: szerintünk ne minden nyelvet telepítsünk)
+- nem regisztráltnál mindig feljön a "szám találgatós" ablak
+- első indításnál beállítások
+(később innen hívható elő: Beállítások/átalálnos beállítások/képernyő/szín, betű stb.)
+
+Beállítások
+-----------
+(tipp: nem rendszergazda jogosultsággal/jogosultságú Windows felhasználóval indítva előfordulhat, hogy néhány funkció beállítása nem elérhető)
+Képernyő: 
+rejtett fájlok, rendszer fájlok megjelenítése (rendszer/rejtett mappák is látszódni fognak);
+gyorstippszerű filenév mutatás, ha a vége nem látszik
+Szín:
+hosszútávon érdemes lehet kialakítani a szemünknek kényelmesebbet (pl nekem a világos háttér zavaró)
+Működés:
+Csak egy Total Commander futhat egy időben (ha nagyon sok fájllal dolgozunk, akkor érdemes lehet bekapcsolni, hogy ne kavarodjon össze az esetleges ugyanarra mutató file művelet)
+Kijelölés egérrel - ha Windows-t megszoktuk, akkor érdemes lehet átkapcsolni
+Kijelölés (szürke +) - csak fájlok, mappák is? (ha közös mappákban dolgozunk, amiknél kritikus, hogy ne változzon/törlődjön, akkor érdemes csak file-ra átkapcsolni)
+Szerkesztő/Nézőke:
+Átállíthatjuk, hogy pl szerkesztésnél mi legyen a hozzárendelt program (pl Notepad++ a Windows notepad-ja helyett?)
+FTP:
+Ha valaki kihasználja az FTP kezelő funkciót, akkor érdemes ránézni a beállításokra
+Tiltólista:
+Hozzáadhatunk kivételeket, amik nem fognak látszódni
+Tömörítő:
+Átállítható, hogy melyik tömörített fájltípust milyen program kezeljen, illetve
+Zip-Tömörítő menüben: a tömörítési arányt változtathatjuk a felhasználástól függően (praktikusan Maximális tömörítésre érdemes átállni)
+(tipp: a wincmd.ini-ben (az ftp beállítások pedig a wcx_ftp.ini-ben) tárolódnak a beállítások,
+ha ezeket a totalcmd könyvtárban kezeljük, akkor a beállításainkkal együtt tudjuk hordozni a programot,
+mivel a telepítés után sima másolt példányt is futtathatunk (pl pendrive-ról egy újonnan telepített rendszeren)).
+
+Kinézet, alap funkciók:
+-----------------------
+Bal-jobb panel -> amelyik panelen állunk az a forrás, a másik a cél (tab-bal és át-klikkel is váltogathatjuk)
+Parancssor a panelek alatt (lenyíló menüből az előzményeket hívhatjuk elő)
+
+panelen belül
+>Meghajtó váltás (ALT+F1 bal, ALT+F2 jobb -Norton Commander hagyaték)
+ meghajtó [label] méret/szabad
+
+> '\' root '..' -mint parancssorban a CD
+
+>aktuális útvonal (tipp: belekattintva tetszőlegesen átírható pl hálózati útvonalra is: ez néha gyorsabb, mint a hálózat "meghajtót" kiválasztva megvárni, míg elérhető a kívánt cél)
+valamint a lenyílóból gyorslink (pl Desktop)
+
+>rendezés (name, ext, size, date)
+(tipp: pl magamnak az egyik panelen dátum szerint szoktam (a legújabbak felül legyenek pl Downloads könyvtárban))
+
+>favorites ('*' (beállításokban szerkeszthetjük a korábban mentetteket), mellette a lenyitható gomb a mentett kedvenc útvonalak meghívása)
+
+Navigáció:
+Panelváltás: TAB (panelek mérete változtatható)
+Fel-Le: nyilak
+Enter: könyvtárba belépés, file futtatás (backspace-el is visszaléphetünk)
+
+Műveletek:
+INS vagy SPACE- file vagy mappa kiválasztása (jobb egérgombbal szintén -mint a Windows-ban -konfigurálható)
+(tipp: space-el kiválasztva a könyvtár/mappa méretét is kiszámolja)
+F3-text file megnézése, F4-text file szerkesztése
+F5-másolás, F6-átnevezés/átmozgatás (tipp: SHIFT+F5 vagy SHIFT+F6-tal a file forrás panel útvonalán marad-> duplikálás vagy átnevezés)
+ALT+F5 becsomagolás (beépített zip) -> forrást a cél panelre
+F7- könyvtár/mappa létrehozás
+F8, DEL - törlés
+
+Főbb feature-ök:
+----------------
+tehát...
+*2 paneles megjelenítés,
+*tömörített fájlok könnyebb kezelése,
+*beépített text néző/szerkesztő,
+*konfigurálható megjelenítés és működés
+
+Amit még nyújt a program (részletesen nem térnék ki minden változatra, csak 1-1 gyors példával bemutatva):
+
+*Könyvtárak összehasonlítása és szinkronizálása,
+(parancsok/mappaszinkronizálás)
+pl tesztmappa1>file1.txt tesztmappa2>file2.txt
+
+*Részletes kereső,
+(parancsok/keresés) file tartalmában is tud keresni
+Amit keres: filenév vagy file nevének részlete,
+Ahol keres: almappa vagy egy egész meghajtó akár
+Szöveg checkbox: file-ban keres szöveget vagy szövegrészletet
+bővített: pl fájlméret szerinti keresés
+(tipp: ha tudjuk, akkor szűkítsük le a keresést amennyire tudjuk, mert pl szöveg keresése egy komplett meghajtón túl sok találatot adhat) 
+
+*FTP kapcsolat kezelés és file kezelés
+(hálózat/FTP vagy új FTP)
+
+*Multi-rename tool (csoportos file átnevező)
+kijelölés után File/csoportos átnevezéstesz
+(pl fényképek) regular expression-ök is beállíthatóak: érdemes a help-ben átnézni a lehetőségeket ('?' ikon innen)
+
+*háttér mód/queue
+(pl másolás közben 'background' gombra kattintva a háttérben történik a file művelet, közben használható a navigáció,
+tipp: több, egymástól független műveletnél Queue gombbal indítva (F2) sorban hajtódik végre, nem lesz több háttér file művelet, ami lassítja a rendszert)
